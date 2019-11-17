@@ -1,0 +1,13 @@
+server:
+  port: 8000
+  
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8765/  
+  zipkin:
+    base-url: http://localhost:9411/
+      
+  h2:    console:      enabled: true
+      
+  jpa:    show-sql: true

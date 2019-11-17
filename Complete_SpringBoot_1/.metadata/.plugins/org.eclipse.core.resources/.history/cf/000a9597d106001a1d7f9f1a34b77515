@@ -1,0 +1,12 @@
+server:
+  port: 8050
+  
+spring:
+  application:
+    name: zuul-edge-server
+  cloud:
+    config:
+      uri: http://localhost:8765/  
+  zipkin:
+    base-url: http://localhost:9411/
+      
