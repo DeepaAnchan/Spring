@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;RabbitMQConsumerService.java&apos; to &apos;demo3/src/main/java/com.example.demo.Service&apos;&#x0D;&#x0A;- Original project: &apos;Spring-Boot-RabbitMQ-Consumer-Example&apos;&#x0D;&#x0A;- Destination element: &apos;demo3/src/main/java/com.example.demo.Service&apos;&#x0D;&#x0A;- Original element: &apos;com.example.service.RabbitMQConsumerService.java&apos;" description="Copy compilation unit" destination="=demo3/src\/main\/java&lt;com.example.demo.Service" element1="/src\/main\/java&lt;com.example.service{RabbitMQConsumerService.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1573799458203" units="1" version="1.0"/>
+</session>
