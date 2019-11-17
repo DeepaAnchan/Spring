@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=spring-boot-jpa-repository/src\/main\/java&lt;com.example.demo.service{AlbumService.java[AlbumService" modifiers="513" timestamp="1573183362220"/>
+<typeInfo handle="=spring-boot-jpa-repository/src\/main\/java&lt;com.example.demo.service{ImageService.java[ImageService" modifiers="513" timestamp="1573183549978"/>
+<typeInfo handle="=spring-boot-jpa-repository/C:\/Program Files\/Java\/jre1.8.0_191\/lib\/rt.jar&lt;javax.imageio.stream(ImageOutputStream.class[ImageOutputStream" modifiers="1537" timestamp="1561969217310"/>
+<typeInfo handle="=spring-boot-mongodb/src\/main\/java&lt;com.example.demo.Service{PostService.java[PostService" modifiers="513" timestamp="1573214001270"/>
+<typeInfo handle="=spring-boot-mongodb/C:\/Users\/b8ibmjava30\/.m2\/repository\/net\/java\/dev\/jna\/jna\/4.5.2\/jna-4.5.2.jar&lt;com.sun.jna(Function$PostCallRead.class[PostCallRead" modifiers="1545" timestamp="1573211247962"/>
+</typeInfoHistroy>

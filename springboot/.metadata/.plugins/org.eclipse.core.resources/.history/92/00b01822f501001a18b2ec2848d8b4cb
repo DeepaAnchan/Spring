@@ -1,0 +1,6 @@
+
+
+
+insert into comment(comment_by,comment_desc,post_id) values('Ranu','It is raining',1)
+insert into comment(comment_by,comment_desc,post_id) values('Suresh','It is very raining',1)
+insert into comment(comment_by,comment_desc,post_id) values('Monu','It is hot',2)

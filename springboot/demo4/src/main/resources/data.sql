@@ -1,0 +1,1 @@
+insert into Employee(first_name,last_name,salary) values('sanaya','arohi',30000000);

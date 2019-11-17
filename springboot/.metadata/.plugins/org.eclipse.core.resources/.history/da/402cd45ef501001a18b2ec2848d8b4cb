@@ -1,0 +1,2 @@
+
+insert into comment(comment_by,comment_desc,post_id) values('Monu','It is hot',4)

@@ -1,0 +1,6 @@
+server:
+  port: 1222
+  
+spring:  h2:    console:      enabled: true
+      
+  jpa:    hibernate:      ddl-auto: create

@@ -1,0 +1,4 @@
+server:  port: 1458  
+spring:
+  h2:    console:      enabled: true
+          jpa:    show-sql: true    database: mysql    hibernate:          ddl-auto: create      

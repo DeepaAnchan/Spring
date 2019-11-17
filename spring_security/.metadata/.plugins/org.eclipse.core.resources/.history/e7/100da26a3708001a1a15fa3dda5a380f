@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring_security1?useSSL=false
+    username: root
+    password: pass@word1
+    

@@ -1,0 +1,16 @@
+package com.example.demo.model;
+
+
+public class User {
+	
+	
+	private ObjectId _id;
+	
+	public String get_id() {
+		return _id.toHexString();
+	}
+	
+	private String username;
+	private String password;
+
+}

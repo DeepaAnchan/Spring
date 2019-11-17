@@ -1,0 +1,20 @@
+package com.example.demo.controller;
+
+
+
+@RefreshScope
+@RestController
+@RequestMapping("/api")
+public class EmployeeSearchController {
+	
+	@Autowired
+
+	EmployeeSearchService employeeSearchService;
+
+	@RequestMapping("/employees")
+	public Collection<Employee> findAll() {
+		return employeeSearchService.findAll();
+
+	}
+
+}

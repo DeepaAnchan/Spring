@@ -1,0 +1,31 @@
+package com.example.demo.rest;
+
+
+@RestController
+@RequestMapping("/api")
+public class CustomerController {
+	private List<Customer> customers=null;
+	Logger log=LoggerFactory.getLogger(CustomerController.class);
+	@PostConstruct
+	public void init()
+	{
+		log.info("post construct worked..");
+		customers=new ArrayList<Customer>();
+		customers.add(new Customer("John", "Doe", "john@spring.io"));
+		customers.add(new Customer("Shane", "Warne", "shane@luv2code.com"));
+	}
+	
+
+	@GetMapping("/customers")
+	public List<Customer> getAllCustomer()
+	{
+		return customers;
+	}
+	
+	@PreDestroy
+	public void destroy()
+	{
+		log.info("pre destroy worked..");
+		customers=null;
+	}
+}

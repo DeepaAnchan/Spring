@@ -1,0 +1,17 @@
+package com.example.demo;
+
+import javax.persistence.Entity;
+
+import lombok.Data;
+
+@Entity
+@Data
+public class Employee {
+	
+	private Integer employeeId;
+	private String firstName;
+	private String lastName;
+	
+	
+
+}

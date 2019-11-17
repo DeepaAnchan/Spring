@@ -1,0 +1,9 @@
+spring:
+  application:    name: spring-config-server
+  cloud:    config:
+      server:
+        git:
+          url: https://github.com/Anusha-A/spring_config.git
+server:
+  port: 8765
+ 

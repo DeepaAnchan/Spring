@@ -1,0 +1,4 @@
+server:  port: 1908  
+spring:
+  
+    datasource:    initialization-mode: always    username: root    password: pass@word1    url: jdbc:mysql://localhost:3306/spring_boot_rest_data2      jpa:    show-sql: true    database: mysql    hibernate:          ddl-auto: create      

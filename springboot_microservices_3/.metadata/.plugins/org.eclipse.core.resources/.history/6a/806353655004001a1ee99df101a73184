@@ -1,0 +1,26 @@
+package com.example.demo.model;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+
+@Entity
+@Data
+@Table(name = "Employee")
+public class Employee {
+	
+	   private Long employeeId;
+
+	   private String name;
+
+	   private String practiceArea;
+
+	   private String designation;
+
+	   private String companyInfo;
+
+}

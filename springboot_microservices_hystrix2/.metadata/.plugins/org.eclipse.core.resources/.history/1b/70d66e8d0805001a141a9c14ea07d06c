@@ -1,0 +1,4 @@
+server.port= 8030
+
+spring.application.name= recommendation-service
+  

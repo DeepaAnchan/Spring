@@ -1,0 +1,45 @@
+package com.example.demo.service;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.demo.dao.EmployeeSearchServiceDAO;
+import com.example.demo.model.Employee;
+
+@Service
+public class EmployeeSearchService {
+	   
+	   @Autowired
+		private EmployeeSearchServiceDAO employeeSearchServiceDao;
+	
+		@SuppressWarnings("unused")
+		private static Employee createEmployee(Long id, String name, String practiceArea, String designation) {
+
+			Employee emp = new Employee();
+
+			emp.setEmployeeId(id);
+
+			emp.setName(name);
+
+			emp.setPracticeArea(practiceArea);
+
+			emp.setDesignation(designation);
+
+			emp.setCompanyInfo("IBM");
+
+			return emp;
+
+		}
+
+		public Collection<Employee> findAll() {
+
+			return employeeRepsitory;
+
+		}
+
+
+}

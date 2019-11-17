@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="E:\springboot_microservices_hystrix4\spring-config-server"/>
+			<item value="E:\springboot_microservices_hystrix4\offer-service"/>
+			<item value="E:\springboot_microservices_hystrix4\recommendation-service"/>
+			<item value="E:\springboot_microservices_hystrix4\feign-hystrix-client"/>
+			<item value="E:\springboot_microservices_hystrix4\eureka-server"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

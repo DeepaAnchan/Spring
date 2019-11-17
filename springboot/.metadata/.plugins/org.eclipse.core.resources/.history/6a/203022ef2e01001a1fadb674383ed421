@@ -1,0 +1,8 @@
+package com.example.demo.error;
+
+public class Snippet {
+	public static void main(String[] args) {
+		List<Employee>
+	}
+}
+

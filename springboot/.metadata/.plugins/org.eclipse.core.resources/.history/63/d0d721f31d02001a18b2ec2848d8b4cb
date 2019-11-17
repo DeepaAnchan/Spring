@@ -1,0 +1,15 @@
+package com.example.demo.Service;
+
+import java.util.List;
+
+import com.example.demo.model.Posts;
+
+public class PostServiceImpl implements PostService {
+
+	@Override
+	public List<Posts> getAllPosts() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

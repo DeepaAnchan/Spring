@@ -1,0 +1,6 @@
+1573204533003	Rename type 'Post'
+1573204549287	Rename type 'Comment'
+1573204594679	Rename type 'PostController'
+1573204626076	Rename type 'CommentController'
+1573204655289	Rename type 'PostRepository'
+1573204682553	Rename type 'CommentRepository'

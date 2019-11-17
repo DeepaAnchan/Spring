@@ -1,0 +1,11 @@
+127.0.0.1 - - [15/Nov/2019:17:21:34 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [15/Nov/2019:17:21:35 +0530] "GET /spring-security-demo/ HTTP/1.1" 404 1099
+0:0:0:0:0:0:0:1 - - [15/Nov/2019:17:21:50 +0530] "GET / HTTP/1.1" 404 1074
+127.0.0.1 - - [15/Nov/2019:17:24:36 +0530] "GET /spring-security-demo/ HTTP/1.1" 404 1099
+127.0.0.1 - - [15/Nov/2019:17:28:06 +0530] "GET / HTTP/1.1" 404 1074
+127.0.0.1 - - [15/Nov/2019:17:28:06 +0530] "GET /spring-security-demo/ HTTP/1.1" 302 -
+127.0.0.1 - - [15/Nov/2019:17:28:07 +0530] "GET /spring-security-demo/showMyLoginPage HTTP/1.1" 200 2369
+0:0:0:0:0:0:0:1 - - [15/Nov/2019:17:28:28 +0530] "GET /spring-security-demo/showMyLoginPage HTTP/1.1" 200 2369
+0:0:0:0:0:0:0:1 - - [15/Nov/2019:17:28:28 +0530] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [15/Nov/2019:17:29:38 +0530] "POST /spring-security-demo/authenticateTheUser HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [15/Nov/2019:17:29:38 +0530] "GET /spring-security-demo/showMyLoginPage?error HTTP/1.1" 200 2521

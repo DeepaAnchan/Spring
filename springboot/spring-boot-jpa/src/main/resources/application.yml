@@ -1,0 +1,6 @@
+server:
+  port: 1244
+spring:  datasource:    url: jdbc:mysql://localhost:3306/spring_boot_jpa_db
+    username: root
+    password: pass@word1
+    

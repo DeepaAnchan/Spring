@@ -1,0 +1,15 @@
+server:
+  port: 9999
+  
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8765/
+
+management:
+  endpoint:
+    hystrix:
+      stream:
+        enabled: true
+
+      

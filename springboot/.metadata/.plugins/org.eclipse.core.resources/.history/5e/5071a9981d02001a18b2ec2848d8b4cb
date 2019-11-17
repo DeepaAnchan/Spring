@@ -1,0 +1,6 @@
+package com.example.demo.Repository;
+
+
+public class PostRepository  extends MongoRepository<Post,String>{
+
+}

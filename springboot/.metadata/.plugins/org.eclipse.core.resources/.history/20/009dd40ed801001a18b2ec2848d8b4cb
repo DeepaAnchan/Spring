@@ -1,0 +1,27 @@
+package com.example.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.example.demo.dao.AlbumRepository;
+import com.example.demo.dao.ImageRepository;
+
+@SpringBootApplication
+public class SpringBootJpaRepositoryApplication {
+
+	private AlbumRepository albumRepository;
+	private ImageRepository imageRepository;
+	
+	public SpringBootJpaRepositoryApplication(AlbumRepository albumRepository, ImageRepository imageRepository) {
+		super();
+		this.albumRepository = albumRepository;
+		this.imageRepository = imageRepository;
+	}
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootJpaRepositoryApplication.class, args);
+	}
+	
+	
+
+}

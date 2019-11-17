@@ -1,0 +1,9 @@
+package com.example.demo.Service;
+
+import java.util.List;
+
+public interface PostService {
+
+	
+	public List<Posts> getAllPosts();
+}

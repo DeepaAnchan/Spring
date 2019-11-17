@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;eureka-server-demo&apos;&#x0D;&#x0A;- Original project: &apos;eureka-server-demo&apos;&#x0D;&#x0A;- Original element: &apos;eureka-server-demo/src/main/java/com.mynotes.spring.cloud.eureka&apos;" description="Delete element" element1="/src\/main\/java&lt;com.mynotes.spring.cloud.eureka" element2="/src\/main\/java&lt;com.mynotes.spring.cloud" element3="/src\/main\/java&lt;com.mynotes.spring" element4="/src\/main\/java&lt;com.mynotes" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1573536534195" subPackages="false" version="1.0"/>
+</session>

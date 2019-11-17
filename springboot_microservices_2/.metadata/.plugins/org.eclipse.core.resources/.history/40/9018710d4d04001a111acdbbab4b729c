@@ -1,0 +1,16 @@
+package com.example.demo.service;
+
+public class EmployeeSearchService {
+	
+	private Long employeeId;
+
+	   private String name;
+
+	   private String practiceArea;
+
+	   private String designation;
+
+	   private String companyInfo;
+
+
+}

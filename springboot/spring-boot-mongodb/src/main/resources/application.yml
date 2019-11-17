@@ -1,0 +1,5 @@
+server:
+  port: 1875
+spring:  data:    mongodb:      database: post-rest
+      host: 127.0.0.1
+      port: 27017

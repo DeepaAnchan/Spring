@@ -1,0 +1,5 @@
+package comm.example.springdemo;
+
+public class HomeController {
+
+}

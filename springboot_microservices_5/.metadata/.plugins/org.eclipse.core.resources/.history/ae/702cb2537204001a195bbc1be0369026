@@ -1,0 +1,17 @@
+package com.example.demo.model;
+
+import org.bson.types.ObjectId;
+
+public class User {
+	
+	
+	private ObjectId _id;
+	
+	public String get_id() {
+		return _id.toHexString();
+	}
+	
+	private String username;
+	private String password;
+
+}
