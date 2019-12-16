@@ -42,11 +42,11 @@
    <libraries>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-spring-webmvc-5.1.11.RELEASE.jar/meta-inf/spring-form.tld" project="spring-boot-microservice-currency-conversion"/>
+      path="FileSystems/lib-spring-webmvc-5.1.11.RELEASE.jar/meta-inf/spring-form.tld" project="eureka-server-demo"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-spring-webmvc-5.1.11.RELEASE.jar/meta-inf/spring.tld" project="spring-boot-microservice-currency-conversion"/>
+      path="FileSystems/lib-spring-webmvc-5.1.11.RELEASE.jar/meta-inf/spring.tld" project="eureka-server-demo"/>
     </library>
    </libraries>
   </path>
